@@ -1,0 +1,4 @@
+BebasNeueRegular .
+BebasNeueBold .
+font-family: "AlfaSlabOne"    Regular
+Montserrat Bold, Regular .

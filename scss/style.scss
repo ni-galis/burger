@@ -1,0 +1,30 @@
+@forward "./zeroing.scss";
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700);
+
+@font-face {
+	font-family: "AlfaSlabOne";
+	src: url("./../fonts/AnyConv.com__AlfaSlabOne-Regular-OTF.woff") format("woff");
+	font-display: swap;
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "BebasNeueRegular";
+	src: url("./../fonts/BebasNeueRegular.woff") format("woff");
+	font-display: swap;
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "BbasNeueeBold";
+	src: url("./../fonts/BebasNeueRegular.woff") format("woff");
+	font-display: swap;
+	font-style: normal;
+	font-weight: 700;
+}
+.none {
+	display: none !important;
+}
