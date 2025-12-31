@@ -46,12 +46,17 @@ body {
 
 //------------ NAV -----------------------
 
-.nav {}
+.nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+}
 
 .nav__row {
   max-width: 1330px;
   width: 100%;
-  background-color: #bdecc8;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -75,11 +80,12 @@ body {
 
 .nav__row-info {
   margin-top: 4px;
+
 }
 
 .row-info__top {
   display: flex;
-  gap: 10px;
+  gap: 11px;
   align-items: center;
   font-size: 16px;
   font-family: "Montserrat";
@@ -100,14 +106,13 @@ body {
   }
 }
 
-.top__span {
-  letter-spacing: .03rem;
-}
+.top__span {}
 
 .top__num {
   color: rgb(61, 37, 20);
-  letter-spacing: -.04rem;
   transition: .3s ease;
+  margin-left: 2px;
+
 
   &:hover {
     transform: scale(1.05);
@@ -134,30 +139,140 @@ body {
   text-transform: uppercase;
 }
 
+//------------ HEADER ---------------------
+.header {}
+
+.header__row {
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.header__info {
+  position: absolute;
+  top: 142px;
+}
+
+.header__subtitle {
+  min-width: 400px;
+  font-size: 23px;
+  font-family: "Bebas Neue";
+  color: rgb(61, 37, 20);
+  text-transform: uppercase;
+  line-height: 1.5;
+  letter-spacing: .008rem;
+  text-align: left;
+  position: absolute;
+  top: 154px;
+  left: 81px;
+  z-index: 1;
+}
+
+.sub-retangle {
+  margin-top: 144px;
+  margin-left: 63px;
+}
+
+.header__title {
+  font-size: 114px;
+  font-family: "AlfaS lab One";
+  color: rgb(61, 37, 20);
+  text-transform: uppercase;
+  line-height: 0.54;
+  text-align: left;
+  text-shadow: 3.936px 4.528px 0px rgb(254, 232, 188);
+  position: absolute;
+  top: 238px;
+  left: 60px;
+  z-index: 1;
+}
+
+.header__suptitle {
+  font-size: 57px;
+  font-family: "AlfaS lab One";
+  color: rgb(61, 37, 20);
+  text-transform: uppercase;
+  line-height: 1.093;
+  text-align: left;
+  text-shadow: 3.936px 4.528px 0px rgb(254, 232, 188);
+  position: absolute;
+  top: 329px;
+  left: 60px;
+  z-index: 1;
+}
+
+.header-img {
+  position: relative;
+  left: 483px;
+  top: -200px;
+  z-index: 1;
+}
+
+.ellipse__img {
+  position: absolute;
+  top: 771px;
+  left: 220px;
+  z-index: 1;
+}
+
+.burger-price {
+  font-family: "Bebas Neue";
+  position: absolute;
+  top: 822px;
+  left: 267px;
+  z-index: 1;
+  color: rgb(255, 255, 255);
+  line-height: 0.543;
+  font-size: 70px;
+}
+
+.price__num {
+  font-size: 30px;
+  margin-top: 16px;
+  margin-left: -12px;
+}
+
+.price__txt {
+  font-size: 35px;
+  margin-left: 0px;
+  letter-spacing: .7rem;
+}
+
 @media (max-width: 1440px) {
-  .row-info__top {
-    line-height: 5.1;
-    gap: 8px;
-  }
-
-  .top__span {
-    letter-spacing: -.01rem;
-  }
-.row-info__bottom { 
-  margin-top: -3px;
-}
-.nav__menu {
-  gap: 57px;
-}
-}
-@media (max-width: 1200px) {
-  .nav__menu {
-  gap: 50px;
-}
+.header__subtitle {
+  top: 153px;
+  left: 65px;
 }
 
-@media (max-width: 768px) {
-.nav__row-info {
-display: none;
+.sub-retangle {
+  margin-left: 47px;
 }
+
+.header__title {
+  left: 44px;
+}
+
+.header__suptitle {
+  left: 44px;
+}
+.header-img {
+  left: 467px;
+}
+.ellipse__img {
+  left: 220px;
+}
+
+.burger-price {
+  left: 272px;
+}
+
+.price__num {
+  margin-left: -12px;
+}
+
 }
