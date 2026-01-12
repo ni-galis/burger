@@ -62,6 +62,7 @@ body {
   align-items: center;
   margin: 0 auto;
   margin-top: 30px;
+  position: relative;
 }
 
 .nav__row-logo {}
@@ -85,7 +86,7 @@ body {
 
 .row-info__top {
   display: flex;
-  gap: 11px;
+  gap: 15px;
   align-items: center;
   font-size: 16px;
   font-family: "Montserrat";
@@ -106,7 +107,9 @@ body {
   }
 }
 
-.top__span {}
+.top__span {
+  letter-spacing: .025rem;
+}
 
 .top__num {
   color: rgb(61, 37, 20);
@@ -139,7 +142,91 @@ body {
   text-transform: uppercase;
 }
 
-//------------ HEADER ---------------------
+@media (max-width: 1440px) {
+  .row-info__top {
+    gap: 1.04vw;
+  }
+
+  .row-info__top {
+    //gap: 8px;
+  }
+
+  .nav__menu {
+    gap: 3.88vw;
+  }
+}
+
+@media (max-width: 1400px) {
+  .nav__row-logo {
+    margin-left: 2.77vw;
+  }
+}
+
+@media (max-width: 1380px) {
+  .row-info__top {
+    padding-right: 10px;
+  }
+
+  .nav__menu {
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav__menu {
+    display: none;
+  }
+
+  .nav__row-logo {
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1;
+  }
+
+  .row-info__top {
+    position: absolute;
+    top: -30px;
+    left: 2.6vw;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 575px) {
+  .row-info__top {
+    width: 500px;
+    font-size: 16px;
+    position: absolute;
+    top: -30px;
+    left: -50px;
+    margin-left: 50%;
+    transform: translate(-50%);
+  }
+
+  .nav__row-logo {
+    top: 60px;
+    left: 200px;
+    margin: 0px 0px 0px 0px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+}
+
+@media (max-width: 420px) {
+  .row-info__top {
+    font-size: 15px;
+    margin-left: 50%;
+    transform: translate(-72%);
+  }
+
+  .top__span {
+    display: none;
+  }
+}
+
+
+//------------ HEADER ---------------
 .header {}
 
 .header__row {
@@ -244,35 +331,36 @@ body {
 }
 
 @media (max-width: 1440px) {
-.header__subtitle {
-  top: 153px;
-  left: 65px;
-}
+  .header__subtitle {
+    top: 153px;
+    left: 65px;
+  }
 
-.sub-retangle {
-  margin-left: 47px;
-}
+  .sub-retangle {
+    margin-left: 47px;
+  }
 
-.header__title {
-  left: 44px;
-}
+  .header__title {
+    left: 44px;
+  }
 
-.header__suptitle {
-  left: 44px;
-}
-.header-img {
-  left: 467px;
-}
-.ellipse__img {
-  left: 220px;
-}
+  .header__suptitle {
+    left: 44px;
+  }
 
-.burger-price {
-  left: 272px;
-}
+  .header-img {
+    left: 467px;
+  }
 
-.price__num {
-  margin-left: -12px;
-}
+  .ellipse__img {
+    left: 220px;
+  }
 
+  .burger-price {
+    left: 272px;
+  }
+
+  .price__num {
+    margin-left: -12px;
+  }
 }
