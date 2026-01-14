@@ -331,7 +331,7 @@ body {
   }
 }
 .header__row {
-  height: auto;
+  height: 825px;
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -402,7 +402,7 @@ body {
 .header-img {
   position: relative;
   left: 483px;
-  top: -200px;
+  top: -20px;
   z-index: 1;
 }
 
