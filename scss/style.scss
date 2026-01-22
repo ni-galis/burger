@@ -35,6 +35,10 @@
 
 body {
   background-color: #ccc;
+
+  &.lock {
+    overflow: hidden;
+  }
 }
 
 .container {
@@ -79,7 +83,6 @@ body {
 
 .nav__row-info {
   margin-top: 4px;
-
 }
 
 .row-info__top {
@@ -110,15 +113,60 @@ body {
   transition: .3s ease;
   margin-left: 2px;
 
-
   &:hover {
     transform: scale(1.05);
     color: blue;
   }
 }
 
+.burger-btn {
+  display: block;
+  width: 30px;
+  height: 18px;
+  position: relative;
+  z-index: 5;
+  cursor: pointer;
+  display: none;
+
+  span {
+    position: absolute;
+    top: calc(50% - 1px);
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    transition: .3s;
+
+    &:first-child {
+      top: 0;
+    }
+
+    &:last-child {
+      top: auto;
+      bottom: 0;
+    }
+  }
+
+  &.active {
+    span {
+      transform: scale(0);
+
+      &:first-child {
+        transform: rotate(-45deg);
+        top: calc(50% - 1px);
+      }
+
+      &:last-child {
+        transform: rotate(45deg);
+        bottom: calc(50% - 1px);
+      }
+    }
+  }
+}
+
 .row-info__bottom {
   display: flex;
+  position: relative;
 }
 
 .nav__menu {
@@ -147,6 +195,7 @@ body {
   }
 }
 
+
 @media (max-width: 1440px) {
   .row-info__top {
     gap: 8px;
@@ -174,7 +223,6 @@ body {
 }
 
 @media (max-width: 1020px) {
-
   .logo__img {
     max-width: 95%;
   }
@@ -189,10 +237,6 @@ body {
 }
 
 @media (max-width: 768px) {
-  .nav__menu {
-    display: none;
-  }
-
   .nav__row-logo {
     position: absolute;
     top: 80px;
@@ -226,18 +270,6 @@ body {
     margin: 0px 0px 0px 0px;
     left: 50%;
     transform: translate(-50%);
-  }
-}
-
-@media (max-width: 420px) {
-  .row-info__top {
-    font-size: 15px;
-    margin-left: 50%;
-    transform: translate(-72%);
-  }
-
-  .top__span {
-    display: none;
   }
 }
 
@@ -392,10 +424,6 @@ body {
     font-size: 20px;
   }
 
-  .sub-retangle {
-    width: 80%;
-  }
-
   .header__title {
     font-size: 94px;
   }
@@ -493,7 +521,6 @@ body {
 }
 
 @media (max-width: 990px) {
-
   .burger-price {
     top: 537px;
   }
@@ -503,7 +530,73 @@ body {
   }
 }
 
+@media (max-width: 924px) {
+  .header__subtitle {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 880px) {
+  .header__subtitle {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 685px) {
+  .header__subtitle {
+    margin-left: 0px;
+  }
+}
+
 @media (max-width: 768px) {
+  .row-info__top {
+    display: none;
+  }
+
+  .burger-btn {
+    display: block;
+    left: 85vw;
+  }
+
+  .row-info__bottom {
+    position: absolute;
+    top: -33px;
+    left: -120%;
+    height: 100vh;
+    width: 100%;
+    background-color: #d81b1b;
+    display: flex;
+    transition: .3s;
+    overflow: auto;
+    z-index: 1;
+
+    &.active {
+      left: 0;
+    }
+
+    .nav__menu {
+      padding: 30px;
+      flex-direction: column;
+      gap: 0;
+      margin: auto;
+    }
+
+    .nav__link {
+      display: block;
+      font-size: 45px;
+      line-height: 90px;
+      color: aqua;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+
+    .search__img {
+      display: none;
+    }
+  }
 
   .nav__row-logo {
     max-width: 60%;
@@ -519,13 +612,13 @@ body {
   }
 
   .header__subtitle {
-    font-size: 16px;
-    margin-top: -2px;
-    margin-left: -8px;
+    font-size: 14px;
+    margin-top: -4px;
+    margin-left: -14px;
   }
 
   .sub-retangle {
-    width: 95%;
+    width: 80%;
   }
 
   .header__title {
@@ -567,6 +660,14 @@ body {
 }
 
 @media (max-width: 575px) {
+  .nav__link {
+    transition: .3s ease;
+
+    &:hover {
+      color: blue;
+    }
+  }
+
   .nav__row-logo {
     top: 60px;
   }
@@ -591,13 +692,13 @@ body {
 }
 
 @media (max-width: 480px) {
-
-  .header__row {
-    height: 640px;
+  .nav__link {
+    font-size: 40px !important;
   }
 
-  .header__info {
-    top: 40px;
+  .burger-btn {
+    display: block;
+    left: 82vw;
   }
 
   .header__subtitle {
@@ -641,7 +742,24 @@ body {
   }
 }
 
+@media (max-width: 400px) {
+  .burger-btn {
+    left: 81vw;
+  }
+
+}
+
 @media (max-width: 320px) {
+  .nav__link {
+    font-size: 30px !important;
+  }
+
+  .burger-btn {
+    display: block;
+    width: 30px;
+    height: 17px;
+    left: 76vw;
+  }
 
   .nav__row-logo {
     min-width: 65%;

@@ -117,6 +117,9 @@ legend {
 body {
   background-color: #ccc;
 }
+body.lock {
+  overflow: hidden;
+}
 
 .container {
   max-width: 1470px;
@@ -209,10 +212,55 @@ body {
   color: blue;
 }
 
+.burger-btn {
+  display: block;
+  width: 30px;
+  height: 18px;
+  position: relative;
+  z-index: 5;
+  cursor: pointer;
+  display: none;
+}
+.burger-btn span {
+  position: absolute;
+  top: calc(50% - 1px);
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.burger-btn span:first-child {
+  top: 0;
+}
+.burger-btn span:last-child {
+  top: auto;
+  bottom: 0;
+}
+.burger-btn.active span {
+  -webkit-transform: scale(0);
+      -ms-transform: scale(0);
+          transform: scale(0);
+}
+.burger-btn.active span:first-child {
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  top: calc(50% - 1px);
+}
+.burger-btn.active span:last-child {
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+  bottom: calc(50% - 1px);
+}
+
 .row-info__bottom {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
 }
 
 .nav__menu {
@@ -277,9 +325,6 @@ body {
   }
 }
 @media (max-width: 768px) {
-  .nav__menu {
-    display: none;
-  }
   .nav__row-logo {
     position: absolute;
     top: 80px;
@@ -316,18 +361,6 @@ body {
     -webkit-transform: translate(-50%);
         -ms-transform: translate(-50%);
             transform: translate(-50%);
-  }
-}
-@media (max-width: 420px) {
-  .row-info__top {
-    font-size: 15px;
-    margin-left: 50%;
-    -webkit-transform: translate(-72%);
-        -ms-transform: translate(-72%);
-            transform: translate(-72%);
-  }
-  .top__span {
-    display: none;
   }
 }
 .header__row {
@@ -484,9 +517,6 @@ body {
   .header__subtitle {
     font-size: 20px;
   }
-  .sub-retangle {
-    width: 80%;
-  }
   .header__title {
     font-size: 94px;
   }
@@ -575,7 +605,71 @@ body {
     margin-top: 10vw;
   }
 }
+@media (max-width: 924px) {
+  .header__subtitle {
+    font-size: 18px;
+  }
+}
+@media (max-width: 880px) {
+  .header__subtitle {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+}
+@media (max-width: 685px) {
+  .header__subtitle {
+    margin-left: 0px;
+  }
+}
 @media (max-width: 768px) {
+  .row-info__top {
+    display: none;
+  }
+  .burger-btn {
+    display: block;
+    left: 85vw;
+  }
+  .row-info__bottom {
+    position: absolute;
+    top: -33px;
+    left: -120%;
+    height: 100vh;
+    width: 100%;
+    background-color: #d81b1b;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    overflow: auto;
+    z-index: 1;
+  }
+  .row-info__bottom.active {
+    left: 0;
+  }
+  .row-info__bottom .nav__menu {
+    padding: 30px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 0;
+    margin: auto;
+  }
+  .row-info__bottom .nav__link {
+    display: block;
+    font-size: 45px;
+    line-height: 90px;
+    color: aqua;
+  }
+  .row-info__bottom .nav__link:hover {
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .row-info__bottom .search__img {
+    display: none;
+  }
   .nav__row-logo {
     max-width: 60%;
     top: 70px;
@@ -587,12 +681,12 @@ body {
     top: 40px;
   }
   .header__subtitle {
-    font-size: 16px;
-    margin-top: -2px;
-    margin-left: -8px;
+    font-size: 14px;
+    margin-top: -4px;
+    margin-left: -14px;
   }
   .sub-retangle {
-    width: 95%;
+    width: 80%;
   }
   .header__title {
     font-size: 60px;
@@ -626,6 +720,13 @@ body {
   }
 }
 @media (max-width: 575px) {
+  .nav__link {
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+  }
+  .nav__link:hover {
+    color: blue;
+  }
   .nav__row-logo {
     top: 60px;
   }
@@ -648,11 +749,12 @@ body {
   }
 }
 @media (max-width: 480px) {
-  .header__row {
-    height: 640px;
+  .nav__link {
+    font-size: 40px !important;
   }
-  .header__info {
-    top: 40px;
+  .burger-btn {
+    display: block;
+    left: 82vw;
   }
   .header__subtitle {
     font-size: 14px;
@@ -692,7 +794,21 @@ body {
     left: 123px;
   }
 }
+@media (max-width: 400px) {
+  .burger-btn {
+    left: 81vw;
+  }
+}
 @media (max-width: 320px) {
+  .nav__link {
+    font-size: 30px !important;
+  }
+  .burger-btn {
+    display: block;
+    width: 30px;
+    height: 17px;
+    left: 76vw;
+  }
   .nav__row-logo {
     min-width: 65%;
     top: 50px;
