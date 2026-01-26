@@ -824,12 +824,8 @@ body {
   }
 }
 
-//------------------- BURGERS ----------------
+//------------------- BURGERS ---------
 
-
-.burgers {
-  //position: relative;
-}
 
 .burger__content {
   width: 100%;
@@ -837,26 +833,16 @@ body {
   background-color: #fff;
 }
 
-
 .visually-hidden {
-  /* Contain text within 1px */
   height: 1px;
   overflow: hidden;
   width: 1px;
 
-  /* Keep the layout */
   position: absolute;
 
-  /* Remove anyvisible trace (e.d. background color */
-
   clip: rect(1px 1px 1px 1px);
-  /*IE6, IE7 */
   clip: rect(1px 1px 1px 1px);
   clip-path: inset(50%);
-  /* browsers in the future */
-
-  /* Prevent the screen reader to skip spaces
-	between words*/
 
   white-space: nowrap;
 }
@@ -924,3 +910,4 @@ body {
     gap: 20px;
   }
 }
+//----------- CHOOSE ------------------
