@@ -1085,6 +1085,7 @@ body.lock {
   height: 57px;
   z-index: 1;
   margin-top: 35px;
+  cursor: pointer;
 }
 
 .order-img1 {
