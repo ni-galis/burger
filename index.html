@@ -6,9 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="./img/favicon/favicon (10).ico" type="image/x-icon">
-
-  <title></title>
+ <link rel="stylesheet" href="./swiper-bundle.css">
   <link rel="stylesheet" href="./css/style.css">
+  <title>BURGER</title>
+
 </head>
 
 <body>
@@ -74,7 +75,6 @@
           </div><!--ellipse-img-->
         </div>
 
-
       </div><!--header__row-->
     </div><!--container-->
   </header>
@@ -84,15 +84,18 @@
       <div class="burger__content">
         <h2 class="visually-hidden">NAME OF BURGERS</h2>
         <div class="burger__row">
+
           <div class="burger-most">
             <img class="most-img" src="./image/burgers/most-popular.jpg" alt="most">
           </div>
+
           <div class="burgers-others">
             <img class="more-img" src="./image/burgers/more-taste.jpg" alt="more">
 
             <img class="fresh-img" src="./image/burgers/fresh-chili.jpg" alt="fresh">
           </div>
-        </div>
+
+        </div><!--burger__row-->
         </h2>
       </div>
     </div>
@@ -101,36 +104,37 @@
   <section class="choce">
     <div class="container">
       <div class="chooce__content">
-      <div class="choce__top">
-        <div class="chooce__subtitle">
-          <img class="subtitle-img" src="./image/choose/pic4.jpg" alt="pic4">
-        </div>
-        <h2 class="choce-title">CHOOSE & ENJOY</h2>
-        <div class="choce__suptitle">
-          <p class="suptitle-txt">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus
-            vel facilisis.
-          </p>
-        </div><!--choce__suptitle-->
-      </div><!--choce__top-->
+        <div class="choce__top">
+          <div class="chooce__subtitle">
+            <img class="subtitle-img" src="./image/choose/pic4.jpg" alt="pic4">
+          </div>
+          <h2 class="choce-title">CHOOSE & ENJOY</h2>
+          <div class="choce__suptitle">
+            <p class="suptitle-txt">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
+              lacus
+              vel facilisis.
+            </p>
+          </div><!--choce__suptitle-->
+        </div><!--choce__top-->
 
-      <div class="chooce__inner">
-        <div class="inner-row">
+        <div class="chooce__inner">
+          <div class="inner-row">
 
-          <div class="inner-row__column">
-            <img class="column-img" src="./image/choose/pic1.png" alt="pic1">
-            <div class="shadow">
-              <img сlass="shadow-img" src="./image/choose/pic7.png" alt="pic7">
-            </div>
-            <h4 class="column-title1 column-title">Lorem ipsum dolor</h4>
-            <div class="column__suptitle1 column__suptitle">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            </div>
-            <div class="column__order">
-              <img class="order-img1 order-img" src="./image/choose/pic5.jpg" alt="pic5">
-            </div>
-          </div><!--inner-row__column-->
+            <div class="inner-row__column">
+              <img class="column-img" src="./image/choose/pic1.png" alt="pic1">
+              <div class="shadow">
+                <img сlass="shadow-img" src="./image/choose/pic7.png" alt="pic7">
+              </div>
+              <h4 class="column-title1 column-title">Lorem ipsum dolor</h4>
+              <div class="column__suptitle1 column__suptitle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              </div>
+              <div class="column__order">
+                <img class="order-img1 order-img" src="./image/choose/pic5.jpg" alt="pic5">
+              </div>
+            </div><!--inner-row__column-->
 
             <div class="inner-row__column">
               <img class="column-img" src="./image/choose/pic2.png" alt="pic2">
@@ -159,19 +163,58 @@
               <div class="column__order">
                 <img class="order-img3 order-img" src="./image/choose/pic5.jpg" alt="pic5">
               </div>
-            </div><!--inner-row__column-->      
+            </div><!--inner-row__column-->
 
-        </div><!--inner-row-->
-      </div>
+          </div><!--inner-row-->
+        </div>
       </div><!--chooce__content-->
+    </div><!--container-->
+  </section>
+
+  <section class="discover">
+    <div class="container">
+      <div class="discover__content">
+        <div class="discover-row">
+          <div class="discover-row__info">
+            <div class="discover__subtitle">DISCOVER</div>
+            <div>
+              <h3 class="discover__title">UPCOMING EVENTS</h3>
+            </div>
+            <div class="discover-txt">
+              <p class="discover__text">
+                Lorem ipsum dolor sit amet, consectetur adipisc-
+                ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum sus-
+                pendisse ultrices gravida. Risus commodo viverra maecenas accumsan
+                lacus
+                vel facilisis.
+              </p>
+
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+
+            </div><!--discover-txt-->
+          </div><!--discover-row__info-->
+
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="./image/discover/06.png" alt="06"></div>
+                <div class="swiper-slide"><img src="./image/discover/05.png" alt="05"></div>
+                <div class="swiper-slide"><img src="./image/discover/04.jpg" alt="08"></div>
+              </div>
+            </div><!--swiper-->
+       
+        </div><!--discover-row-->
+      </div><!--discover__content-->
     </div><!--container-->
   </section>
 
 
 
-
-  <script src="js/main.js"></script>
   <br><br><br>
+  <script src="./swiper-bundle.js"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>

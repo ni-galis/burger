@@ -1,6 +1,5 @@
-
-const menu =document.querySelector('.row-info__bottom');
-const menuBtn =document.querySelector('.burger-btn');
+const menu = document.querySelector('.row-info__bottom');
+const menuBtn = document.querySelector('.burger-btn');
 
 const body = document.body;
 
@@ -20,3 +19,18 @@ if (menu && menuBtn) {
     }
   })
 }
+
+// ============= слайдер ===============
+
+const swiper = new Swiper('.swiper', {
+
+  loop: true,
+  speed: 900,
+
+  effect: 'cube',
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+});
