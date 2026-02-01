@@ -1665,3 +1665,558 @@ body.lock {
     top: 235px;
   }
 }
+.reservation__content {
+  width: 100%;
+  height: 734px;
+  background-color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+
+.content-suptitle {
+  position: absolute;
+  left: 652px;
+  top: 120px;
+  z-index: 1;
+}
+
+.reservation__content-suptitle {
+  font-size: 30px;
+  font-family: "Bebas Neue";
+  color: rgb(61, 37, 20);
+  text-transform: uppercase;
+  line-height: 1.6;
+  letter-spacing: 0.11rem;
+  text-align: left;
+}
+
+.content-title {
+  position: absolute;
+  left: 435px;
+  top: 177px;
+  z-index: 1;
+}
+
+.reservation__content-title {
+  font-size: 50px;
+  font-family: "Alfa Slab One";
+  color: rgb(61, 37, 20);
+  text-transform: uppercase;
+  line-height: 0.92;
+  letter-spacing: 0.198rem;
+}
+
+.burger__img {
+  position: absolute;
+  left: -84px;
+  top: 12px;
+}
+
+.bottle__img {
+  position: absolute;
+  top: 236px;
+  left: 100px;
+  z-index: 1;
+}
+
+.assorted__img {
+  position: absolute;
+  left: 1120px;
+  top: 263px;
+  z-index: 1;
+}
+
+.reservation-form {
+  width: 800px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 27px;
+  position: absolute;
+  top: 307px;
+  left: 50%;
+  -webkit-transform: translate(-49%);
+      -ms-transform: translate(-49%);
+          transform: translate(-49%);
+  z-index: 1;
+  color: #4e0aee;
+}
+
+.reservation-form input {
+  width: 380px;
+  height: 65px;
+  font-family: "Bebas Neue ";
+  border: 1px solid #000;
+  padding-right: 20px;
+  cursor: pointer;
+  padding-left: 20px;
+  font-size: 28px;
+  letter-spacing: -0.1rem;
+}
+
+.reservation-form input::-webkit-input-placeholder {
+  font-size: 20px;
+  font-family: "Bebas Neue ";
+  line-height: 2.2;
+}
+
+.reservation-form input::-moz-placeholder {
+  font-size: 20px;
+  font-family: "Bebas Neue ";
+  line-height: 2.2;
+}
+
+.reservation-form input:-ms-input-placeholder {
+  font-size: 20px;
+  font-family: "Bebas Neue ";
+  line-height: 2.2;
+}
+
+.reservation-form input::-ms-input-placeholder {
+  font-size: 20px;
+  font-family: "Bebas Neue ";
+  line-height: 2.2;
+}
+
+.reservation-form input::placeholder {
+  font-size: 20px;
+  font-family: "Bebas Neue ";
+  line-height: 2.2;
+}
+
+.input__find {
+  font-size: 20px;
+  font-family: "Alfa Slab One";
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 2.2;
+  background-color: #bf2222 !important;
+}
+
+@media (max-width: 1440px) {
+  .reservation__content {
+    height: 712px;
+  }
+  .reservation-form input {
+    font-size: 26px;
+  }
+  .reservation-form {
+    top: 287px;
+  }
+  .content-suptitle {
+    left: 637px;
+    top: 100px;
+  }
+  .content-title {
+    left: 420px;
+    top: 156px;
+  }
+  .burger__img {
+    left: -86px;
+    top: -9px;
+  }
+  .bottle__img {
+    top: 216px;
+    left: 85px;
+  }
+  .assorted__img {
+    left: 1105px;
+    top: 243px;
+  }
+}
+@media (max-width: 1327px) {
+  .reservation__content {
+    height: 912px;
+  }
+  .reservation-form {
+    top: 587px;
+  }
+  .content-suptitle {
+    top: 450px;
+    left: 44.7vw;
+  }
+  .content-title {
+    top: 520px;
+    left: 25.7vw;
+  }
+  .burger__img {
+    left: -85px;
+    top: 59px;
+  }
+  .bottle__img {
+    top: 16px;
+    left: 34.5vw;
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  .assorted__img {
+    left: 64.8vw;
+    top: 43px;
+    padding-right: 30px;
+  }
+  .reservation-form {
+    width: 1200px;
+    gap: 87px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    top: 637px;
+  }
+  .reservation-form input {
+    width: 360px;
+    height: 45px;
+    margin-bottom: -80px;
+    font-size: 18px;
+  }
+  .reservation-form input::-webkit-input-placeholder {
+    font-size: 16px;
+    font-family: "Bebas Neue ";
+    line-height: 2.2;
+  }
+  .reservation-form input::-moz-placeholder {
+    font-size: 16px;
+    font-family: "Bebas Neue ";
+    line-height: 2.2;
+  }
+  .reservation-form input:-ms-input-placeholder {
+    font-size: 16px;
+    font-family: "Bebas Neue ";
+    line-height: 2.2;
+  }
+  .reservation-form input::-ms-input-placeholder {
+    font-size: 16px;
+    font-family: "Bebas Neue ";
+    line-height: 2.2;
+  }
+  .reservation-form input::placeholder {
+    font-size: 16px;
+    font-family: "Bebas Neue ";
+    line-height: 2.2;
+  }
+}
+@media (max-width: 1020px) {
+  .reservation__content {
+    height: 875px;
+  }
+}
+@media (max-width: 1020px) {
+  .burger__img {
+    width: 40%;
+    left: -80px;
+  }
+  .bottle__img {
+    width: 25%;
+    left: 33vw;
+  }
+  .assorted__img {
+    width: 50%;
+    top: 53px;
+  }
+  .reservation-form {
+    top: 587px;
+  }
+  .content-suptitle {
+    top: 450px;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+        -ms-transform: translate(-50%);
+            transform: translate(-50%);
+  }
+  .reservation__content-suptitle {
+    font-size: 28px;
+  }
+  .content-title {
+    top: 510px;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+        -ms-transform: translate(-50%);
+            transform: translate(-50%);
+  }
+  .reservation__content-title {
+    width: 900px;
+    font-size: 44px;
+    text-align: center;
+  }
+  .reservation-form {
+    max-width: 800px;
+    top: 600px;
+  }
+  .reservation-form input {
+    width: 300px;
+  }
+}
+@media (max-width: 768px) {
+  .reservation__content {
+    height: 750px;
+  }
+  .burger__img {
+    left: -59px;
+  }
+  .content-suptitle {
+    top: 350px;
+  }
+  .reservation__content-suptitle {
+    font-size: 26px;
+  }
+  .content-title {
+    top: 410px;
+  }
+  .reservation__content-title {
+    width: 900px;
+    font-size: 40px;
+  }
+  .reservation-form {
+    top: 487px;
+    gap: 70px;
+  }
+  .reservation-form input {
+    width: 270px;
+  }
+}
+@media (max-width: 700px) {
+  .reservation-form {
+    top: 487px;
+    gap: 40px;
+  }
+  .reservation-form input {
+    width: 250px;
+    height: 40px;
+    margin-bottom: 0px;
+  }
+  .reservation-form input::-webkit-input-placeholder {
+    font-size: 14px;
+  }
+  .reservation-form input::-moz-placeholder {
+    font-size: 14px;
+  }
+  .reservation-form input:-ms-input-placeholder {
+    font-size: 14px;
+  }
+  .reservation-form input::-ms-input-placeholder {
+    font-size: 14px;
+  }
+  .reservation-form input::placeholder {
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  .reservation__content {
+    height: 720px;
+  }
+}
+@media (max-width: 700px) {
+  .reservation__content {
+    height: 700px;
+  }
+  .content-suptitle {
+    top: 320px;
+  }
+  .content-title {
+    top: 380px;
+  }
+  .reservation-form {
+    top: 457px;
+    gap: 40px;
+  }
+}
+@media (max-width: 645px) {
+  .reservation__content {
+    height: 680px;
+  }
+  .burger__img {
+    width: 40%;
+    left: -50px;
+  }
+  .reservation-form {
+    width: 600px;
+    top: 457px;
+    gap: 30px;
+  }
+  .reservation-form input {
+    width: 230px;
+    height: 38px;
+  }
+}
+@media (max-width: 575px) {
+  .reservation__content {
+    height: 630px;
+  }
+  .burger__img {
+    left: -45px;
+  }
+  .content-suptitle {
+    top: 270px;
+  }
+  .reservation__content-suptitle {
+    font-size: 24px;
+  }
+  .content-title {
+    top: 330px;
+  }
+  .reservation__content-title {
+    width: 900px;
+    font-size: 36px;
+  }
+  .reservation-form {
+    top: 405px;
+    gap: 30px;
+  }
+  .reservation-form input::-webkit-input-placeholder {
+    font-size: 12px;
+  }
+  .reservation-form input::-moz-placeholder {
+    font-size: 12px;
+  }
+  .reservation-form input:-ms-input-placeholder {
+    font-size: 12px;
+  }
+  .reservation-form input::-ms-input-placeholder {
+    font-size: 12px;
+  }
+  .reservation-form input::placeholder {
+    font-size: 12px;
+  }
+  .reservation-form input {
+    width: 230px;
+    height: 38px;
+    font-size: 25px;
+    padding: 10px 10px 17px 10px;
+    letter-spacing: -0.02rem;
+  }
+  .input__find {
+    font-size: 1rem !important;
+    line-height: 1.1;
+  }
+}
+@media (max-width: 570px) {
+  .reservation__content {
+    height: 880px;
+  }
+  .reservation-form {
+    gap: 27px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .reservation-form input {
+    width: 350px;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px 10px 15px 10px;
+    letter-spacing: 0.02rem;
+  }
+  .input__find {
+    font-size: 1rem !important;
+    line-height: 1.8;
+  }
+}
+@media (max-width: 480px) {
+  .reservation__content {
+    height: 820px;
+  }
+  .burger__img {
+    left: -38px;
+  }
+  .content-suptitle {
+    top: 220px;
+  }
+  .reservation__content-suptitle {
+    font-size: 22px;
+  }
+  .content-title {
+    top: 270px;
+  }
+  .reservation__content-title {
+    font-size: 32px;
+  }
+  .reservation-form {
+    top: 350px;
+  }
+}
+@media (max-width: 420px) {
+  .reservation__content {
+    height: 755px;
+  }
+  .burger__img {
+    left: -30px;
+  }
+  .reservation__content-suptitle {
+    font-size: 20px;
+  }
+  .content-title {
+    top: 260px;
+  }
+  .reservation__content-title {
+    font-size: 28px;
+  }
+  .reservation-form {
+    top: 310px;
+  }
+  .reservation-form input {
+    width: 300px;
+    height: 45px;
+  }
+}
+@media (max-width: 380px) {
+  .reservation__content {
+    height: 700px;
+  }
+  .burger__img {
+    left: -25px;
+  }
+  .content-suptitle {
+    top: 180px;
+  }
+  .reservation__content-suptitle {
+    font-size: 18px;
+  }
+  .content-title {
+    top: 215px;
+  }
+  .reservation__content-title {
+    font-size: 24px;
+  }
+  .reservation-form {
+    top: 270px;
+  }
+  .reservation-form input {
+    width: 280px;
+    height: 43px;
+  }
+}
+@media (max-width: 340px) {
+  .reservation__content {
+    height: 630px;
+  }
+  .reservation__content-suptitle {
+    font-size: 16px;
+  }
+  .reservation__content-title {
+    font-size: 20px;
+  }
+  .reservation-form {
+    gap: 20px;
+  }
+  .reservation-form input {
+    width: 240px;
+    height: 38px;
+    font-size: 18px;
+    padding: 14px 10px 15px 10px;
+    letter-spacing: 0.03rem;
+  }
+  .input__find {
+    line-height: 0.6;
+  }
+}

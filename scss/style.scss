@@ -195,8 +195,8 @@ body {
   }
 }
 
-
 @media (max-width: 1440px) {
+
   .row-info__top {
     gap: 8px;
   }
@@ -207,12 +207,14 @@ body {
 }
 
 @media (max-width: 1400px) {
+
   .nav__row-logo {
     margin-left: 2.77vw;
   }
 }
 
 @media (max-width: 1380px) {
+
   .row-info__top {
     padding-right: 10px;
   }
@@ -223,6 +225,7 @@ body {
 }
 
 @media (max-width: 1020px) {
+
   .logo__img {
     max-width: 95%;
   }
@@ -237,6 +240,7 @@ body {
 }
 
 @media (max-width: 768px) {
+
   .nav__row-logo {
     position: absolute;
     top: 80px;
@@ -254,6 +258,7 @@ body {
 }
 
 @media (max-width: 575px) {
+
   .row-info__top {
     width: 500px;
     font-size: 16px;
@@ -378,6 +383,7 @@ body {
 }
 
 @media (max-width: 1440px) {
+
   .header__info {
     position: absolute;
     top: 142px;
@@ -390,6 +396,7 @@ body {
 }
 
 @media (max-width: 1330px) {
+
   .header__row {
     height: auto;
     flex-direction: column;
@@ -410,6 +417,7 @@ body {
 }
 
 @media (max-width: 1200px) {
+
   .header__row {
     height: 970px;
   }
@@ -464,6 +472,7 @@ body {
 }
 
 @media (max-width: 1020px) {
+
   .header__row {
     height: 860px;
   }
@@ -521,6 +530,7 @@ body {
 }
 
 @media (max-width: 990px) {
+
   .burger-price {
     top: 537px;
   }
@@ -531,12 +541,14 @@ body {
 }
 
 @media (max-width: 924px) {
+
   .header__subtitle {
     font-size: 18px;
   }
 }
 
 @media (max-width: 880px) {
+
   .header__subtitle {
     font-size: 16px;
     margin-left: 10px;
@@ -544,12 +556,14 @@ body {
 }
 
 @media (max-width: 685px) {
+
   .header__subtitle {
     margin-left: 0px;
   }
 }
 
 @media (max-width: 768px) {
+
   .row-info__top {
     display: none;
   }
@@ -660,6 +674,7 @@ body {
 }
 
 @media (max-width: 575px) {
+
   .nav__link {
     transition: .3s ease;
 
@@ -692,6 +707,7 @@ body {
 }
 
 @media (max-width: 480px) {
+
   .nav__link {
     font-size: 40px !important;
   }
@@ -743,6 +759,7 @@ body {
 }
 
 @media (max-width: 400px) {
+
   .burger-btn {
     left: 81vw;
   }
@@ -750,6 +767,7 @@ body {
 }
 
 @media (max-width: 320px) {
+
   .nav__link {
     font-size: 30px !important;
   }
@@ -859,6 +877,7 @@ body {
 }
 
 @media (max-width: 1440px) {
+
   .burger__row {
     display: flex;
     justify-content: space-between;
@@ -873,6 +892,7 @@ body {
 }
 
 @media (max-width: 1400px) {
+
   .burger__content {
     height: auto;
   }
@@ -886,6 +906,7 @@ body {
 }
 
 @media (max-width: 650px) {
+
   .most-img,
   .fresh-img,
   .more-img {
@@ -894,12 +915,14 @@ body {
 }
 
 @media (max-width: 530px) {
+
   .most-img {
     margin-top: -15px;
   }
 }
 
 @media (max-width: 320px) {
+
   .burger__row {
     padding: 50px 0px 40px 0px;
     gap: 20px;
@@ -911,6 +934,7 @@ body {
 }
 
 //----------- CHOOSE ------------------
+
 .chooce__content {
   height: 990px;
   margin-top: -24px;
@@ -1052,6 +1076,7 @@ body {
 }
 
 @media (max-width: 1440px) {
+
   .chooce__content {
     height: 990px;
     height: auto;
@@ -1089,6 +1114,7 @@ body {
 }
 
 @media (max-width: 1420px) {
+
   .inner-row {
     flex-wrap: wrap;
     gap: 300px;
@@ -1100,6 +1126,7 @@ body {
   }
 
   @media (max-width: 1068px) {
+
     .inner-row {
       flex-wrap: wrap;
       gap: 200px;
@@ -1112,6 +1139,7 @@ body {
 }
 
 @media (max-width: 990px) {
+
   .subtitle-img {
     width: 20%;
   }
@@ -1153,18 +1181,21 @@ body {
 }
 
 @media (max-width: 768px) {
+
   .choce-title {
     font-size: 40px;
   }
 }
 
 @media (max-width: 575px) {
+
   .subtitle-img {
     width: 33%;
   }
 }
 
 @media (max-width: 480px) {
+
   .subtitle-img {
     width: 38%;
   }
@@ -1187,6 +1218,7 @@ body {
 }
 
 @media (max-width: 424px) {
+
   .choce-title {
     font-size: 30px;
     margin-top: 35px;
@@ -1194,6 +1226,7 @@ body {
 }
 
 @media (max-width: 320px) {
+
   .suptitle-txt {
     padding: 0 20px;
   }
@@ -1324,9 +1357,9 @@ body {
   height: 100%;
 }
 
-  .swiper-cube-shadow {
-    display: none;
-  }
+.swiper-cube-shadow {
+  display: none;
+}
 
 .swiper-pagination-bullet {
   width: 18px;
@@ -1347,6 +1380,7 @@ body {
 }
 
 @media (max-width: 1440px) {
+
   .discover__content {
     padding-top: 52px;
     margin-top: -2px;
@@ -1366,6 +1400,7 @@ body {
 }
 
 @media (max-width: 1327px) {
+
   .discover__content {
     height: 965px;
   }
@@ -1412,6 +1447,7 @@ body {
 }
 
 @media (max-width: 1200px) {
+
   .discover__content {
     height: 910px;
   }
@@ -1445,6 +1481,7 @@ body {
 }
 
 @media (max-width: 1020px) {
+
   .discover__subtitle {
     margin-left: 50%;
     transform: translate(-40%);
@@ -1462,6 +1499,7 @@ body {
 }
 
 @media (max-width: 990px) {
+
   .discover__content {
     height: 890px;
   }
@@ -1490,6 +1528,7 @@ body {
 }
 
 @media (max-width: 882px) {
+
   .swiper {
     width: 90%;
   }
@@ -1501,6 +1540,7 @@ body {
 }
 
 @media (max-width: 768px) {
+
   .discover__content {
     height: 760px;
   }
@@ -1543,6 +1583,7 @@ body {
 }
 
 @media (max-width: 575px) {
+
   .discover__content {
     margin-top: -25px;
     height: 670px;
@@ -1587,6 +1628,7 @@ body {
 
 
 @media (max-width: 480px) {
+
   .discover__content {
     margin-top: -20px;
     height: 660px;
@@ -1630,6 +1672,7 @@ body {
 }
 
 @media (max-width: 320px) {
+
   .discover__content {
     margin-top: -40px;
     margin-top: -20px;
@@ -1670,5 +1713,582 @@ body {
     width: 16px;
     height: 16px;
     top: 235px;
+  }
+}
+
+//---------- RESERVATION ------------
+
+.reservation__content {
+  width: 100%;
+  height: 734px;
+  background-color: #fff;
+  overflow: hidden;
+  position: relative;
+
+}
+
+.content-suptitle {
+  position: absolute;
+  left: 652px;
+  top: 120px;
+  z-index: 1;
+}
+
+.reservation__content-suptitle {
+  font-size: 30px;
+  font-family: "Bebas Neue";
+  color: rgb(61, 37, 20);
+  text-transform: uppercase;
+  line-height: 1.6;
+  letter-spacing: .11rem;
+  text-align: left;
+}
+
+.content-title {
+  position: absolute;
+  left: 435px;
+  top: 177px;
+  z-index: 1;
+}
+
+.reservation__content-title {
+  font-size: 50px;
+  font-family: "Alfa Slab One";
+  color: rgb(61, 37, 20);
+  text-transform: uppercase;
+  line-height: 0.92;
+  letter-spacing: .198rem;
+}
+
+.burger__img {
+  position: absolute;
+  left: -84px;
+  top: 12px;
+}
+
+.bottle__img {
+  position: absolute;
+  top: 236px;
+  left: 100px;
+  z-index: 1;
+}
+
+.assorted__img {
+  position: absolute;
+  left: 1120px;
+  top: 263px;
+  z-index: 1;
+}
+
+.reservation-form {
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 27px;
+  position: absolute;
+  top: 307px;
+  left: 50%;
+  transform: translate(-49%);
+  z-index: 1;
+  color: #4e0aee;
+}
+
+.reservation-form input {
+  width: 380px;
+  height: 65px;
+  font-family: "Bebas Neue ";
+  border: 1px solid #000;
+  padding-right: 20px;
+  cursor: pointer;
+  padding-left: 20px;
+  font-size: 28px;
+  letter-spacing: -.1rem;
+}
+
+.reservation-form input::placeholder {
+  font-size: 20px;
+  font-family: "Bebas Neue ";
+  line-height: 2.2;
+}
+
+.input__find {
+  font-size: 20px;
+  font-family: "Alfa Slab One";
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 2.2;
+  background-color: #bf2222 !important;
+}
+
+@media (max-width: 1440px) {
+
+  .reservation__content {
+    height: 712px;
+  }
+
+  .reservation-form input {
+    font-size: 26px;
+  }
+
+  .reservation-form {
+    top: 287px;
+  }
+
+  .content-suptitle {
+    left: 637px;
+    top: 100px;
+  }
+
+  .content-title {
+    left: 420px;
+    top: 156px;
+  }
+
+  .burger__img {
+    left: -86px;
+    top: -9px;
+  }
+
+  .bottle__img {
+    top: 216px;
+    left: 85px;
+  }
+
+  .assorted__img {
+    left: 1105px;
+    top: 243px;
+  }
+}
+
+@media (max-width: 1327px) {
+
+  .reservation__content {
+    height: 912px;
+  }
+
+  .reservation-form {
+    top: 587px;
+  }
+
+  .content-suptitle {
+    top: 450px;
+    left: 44.7vw;
+  }
+
+  .content-title {
+    top: 520px;
+    left: 25.7vw;
+  }
+
+  .burger__img {
+    left: -85px;
+    top: 59px;
+  }
+
+  .bottle__img {
+    top: 16px;
+    left: 34.5vw;
+    transform: rotate(45deg);
+  }
+
+  .assorted__img {
+    left: 64.8vw;
+    top: 43px;
+    padding-right: 30px;
+  }
+
+  .reservation-form {
+    width: 1200px;
+    gap: 87px;
+    justify-content: center;
+    top: 637px;
+  }
+
+  .reservation-form input {
+    width: 360px;
+    height: 45px;
+    margin-bottom: -80px;
+    font-size: 18px;
+  }
+
+  .reservation-form input::placeholder {
+    font-size: 16px;
+    font-family: "Bebas Neue ";
+    line-height: 2.2;
+  }
+}
+
+@media (max-width: 1020px) {
+
+  .reservation__content {
+    height: 875px;
+  }
+}
+
+@media (max-width: 1020px) {
+
+  .burger__img {
+    width: 40%;
+    left: -80px;
+  }
+
+  .bottle__img {
+    width: 25%;
+    left: 33vw;
+  }
+
+  .assorted__img {
+    width: 50%;
+    top: 53px;
+  }
+
+  .reservation-form {
+    top: 587px;
+  }
+
+  .content-suptitle {
+    top: 450px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .reservation__content-suptitle {
+    font-size: 28px;
+  }
+
+  .content-title {
+    top: 510px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .reservation__content-title {
+    width: 900px;
+    font-size: 44px;
+    text-align: center;
+  }
+
+  .reservation-form {
+    max-width: 800px;
+    top: 600px;
+  }
+
+  .reservation-form input {
+    width: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .reservation__content {
+    height: 750px;
+  }
+
+  .burger__img {
+    left: -59px;
+  }
+
+  .content-suptitle {
+    top: 350px;
+  }
+
+  .reservation__content-suptitle {
+    font-size: 26px;
+  }
+
+
+  .content-title {
+    top: 410px;
+  }
+
+  .reservation__content-title {
+    width: 900px;
+    font-size: 40px;
+  }
+
+  .reservation-form {
+    top: 487px;
+    gap: 70px;
+  }
+
+  .reservation-form input {
+    width: 270px;
+  }
+}
+
+@media (max-width: 700px) {
+
+  .reservation-form {
+    top: 487px;
+    gap: 40px;
+  }
+
+  .reservation-form input {
+    width: 250px;
+    height: 40px;
+    margin-bottom: 0px;
+  }
+
+  .reservation-form input::placeholder {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .reservation__content {
+    height: 720px;
+  }
+}
+
+@media (max-width: 700px) {
+
+  .reservation__content {
+    height: 700px;
+  }
+
+  .content-suptitle {
+    top: 320px;
+  }
+
+  .content-title {
+    top: 380px;
+  }
+
+  .reservation-form {
+    top: 457px;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 645px) {
+
+  .reservation__content {
+    height: 680px;
+  }
+
+  .burger__img {
+    width: 40%;
+    left: -50px;
+  }
+
+  .reservation-form {
+    width: 600px;
+    top: 457px;
+    gap: 30px;
+  }
+
+  .reservation-form input {
+    width: 230px;
+    height: 38px;
+  }
+}
+
+@media (max-width: 575px) {
+
+  .reservation__content {
+    height: 630px;
+  }
+
+  .burger__img {
+    left: -45px;
+  }
+
+  .content-suptitle {
+    top: 270px;
+  }
+
+  .reservation__content-suptitle {
+    font-size: 24px;
+  }
+
+  .content-title {
+    top: 330px;
+  }
+
+  .reservation__content-title {
+    width: 900px;
+    font-size: 36px;
+  }
+
+  .reservation-form {
+    top: 405px;
+    gap: 30px;
+  }
+
+  .reservation-form input::placeholder {
+    font-size: 12px;
+  }
+
+  .reservation-form input {
+    width: 230px;
+    height: 38px;
+    font-size: 25px;
+    padding: 10px 10px 17px 10px;
+    letter-spacing: -.02rem;
+  }
+
+  .input__find {
+    font-size: 1rem !important;
+    line-height: 1.1;
+  }
+}
+
+@media (max-width: 570px) {
+
+  .reservation__content {
+    height: 880px;
+  }
+
+  .reservation-form {
+    gap: 27px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .reservation-form input {
+    width: 350px;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px 10px 15px 10px;
+    letter-spacing: .02rem;
+  }
+
+  .input__find {
+    font-size: 1rem !important;
+    line-height: 1.8;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .reservation__content {
+    height: 820px;
+  }
+
+  .burger__img {
+    left: -38px;
+  }
+
+  .content-suptitle {
+    top: 220px;
+  }
+
+  .reservation__content-suptitle {
+    font-size: 22px;
+  }
+
+  .content-title {
+    top: 270px;
+  }
+
+  .reservation__content-title {
+    font-size: 32px;
+  }
+
+  .reservation-form {
+    top: 350px;
+  }
+}
+
+@media (max-width: 420px) {
+
+  .reservation__content {
+    height: 755px;
+  }
+
+  .burger__img {
+    left: -30px;
+  }
+
+  .reservation__content-suptitle {
+    font-size: 20px;
+  }
+
+  .content-title {
+    top: 260px;
+  }
+
+  .reservation__content-title {
+    font-size: 28px;
+  }
+
+  .reservation-form {
+    top: 310px;
+  }
+
+  .reservation-form input {
+    width: 300px;
+    height: 45px;
+  }
+}
+
+@media (max-width: 380px) {
+
+  .reservation__content {
+    height: 700px;
+  }
+
+  .burger__img {
+    left: -25px;
+  }
+
+  .content-suptitle {
+    top: 180px;
+  }
+
+  .reservation__content-suptitle {
+    font-size: 18px;
+  }
+
+  .content-title {
+    top: 215px;
+  }
+
+  .reservation__content-title {
+    font-size: 24px;
+  }
+
+  .reservation-form {
+    top: 270px;
+  }
+
+  .reservation-form input {
+    width: 280px;
+    height: 43px;
+  }
+}
+
+@media (max-width: 340px) {
+  
+  .reservation__content {
+    height: 630px;
+  }
+
+  .reservation__content-suptitle {
+    font-size: 16px;
+  }
+
+  .reservation__content-title {
+    font-size: 20px;
+  }
+
+  .reservation-form {
+    gap: 20px;
+  }
+
+  .reservation-form input {
+    width: 240px;
+    height: 38px;
+    font-size: 18px;
+    padding: 14px 10px 15px 10px;
+    letter-spacing: .03rem;
+  }
+
+  .input__find {
+    line-height: .6;
   }
 }
