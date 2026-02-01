@@ -1324,6 +1324,10 @@ body {
   height: 100%;
 }
 
+  .swiper-cube-shadow {
+    display: none;
+  }
+
 .swiper-pagination-bullet {
   width: 18px;
   height: 18px;
@@ -1345,7 +1349,6 @@ body {
 @media (max-width: 1440px) {
   .discover__content {
     padding-top: 52px;
-    background-color: #fff;
     margin-top: -2px;
     height: 575px;
     padding-bottom: 40px;
@@ -1579,10 +1582,6 @@ body {
     height: 16px;
     top: 330px;
     left: -10px;
-  }
-
-  .swiper-cube-shadow {
-    display: none;
   }
 }
 
